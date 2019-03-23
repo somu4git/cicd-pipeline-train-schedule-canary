@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "somu4git" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "somu4git/train-schedule-canary"
+        //be sure to replace "somu4docker" with your own Docker Hub username
+        DOCKER_IMAGE_NAME = "somu4docker/train-schedule-canary"
     }
     stages {
         stage('Build') {
